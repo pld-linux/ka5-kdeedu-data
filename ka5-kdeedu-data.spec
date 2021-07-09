@@ -26,6 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 kdeedu data.
 
+%description -l pl.UTF-8
+Dane dla kdeedu.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
